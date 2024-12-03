@@ -7,6 +7,10 @@ Ensure the following things :
 - Take k and distance metric as input during prediction.
 '''
 
+''' 
+Don't run this py file as it will run eda.ipynb first
+'''
+
 from eda import X, y, X_train, X_test, y_train, y_test
 from distance_metrics import *
 from sklearn.metrics import accuracy_score
